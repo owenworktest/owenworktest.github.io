@@ -1,0 +1,137 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+body {
+  height: 1000px;
+}
+
+.navbar {
+  transition-duration: 0.5s;
+}
+
+nav.navbar.navbar-light.navbar-expand-md.fixed-top.navbar-top a {
+  transition-duration: 0.5s;
+  color: #eee;
+}
+nav.navbar.navbar-light.navbar-expand-md.fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  background-image: url("https://i.imgur.com/a5ymRW3.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #333;
+}
+header.jumbotron .container {
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: 2px solid #ff6e3a;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+}
+header.jumbotron h1 {
+  color: #eee;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #ff6e3a;
+}
+section#section_ask .col-sm-5.img {
+  height: 350px;
+  background-image: url("https://pic4.zhimg.com/v2-29bf561a85934638b0c716dc4ecc0aa1_b.jpg");
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 150%;
+}
+section#section_about .img_wrap {
+  height: 200px;
+  overflow: hidden;
+}
+
+section#section_story {
+  padding: 0px;
+  background-color: #222;
+  color: #eee;
+}
+section#section_story .col-sm-5 {
+  background-image: url("https://stutzfamily.com/mrstutz/Maps/USHistory/europe1938.gif");
+  height: 400px;
+  background-size: 100% 100%;
+}
+section#section_story .col-sm-5 .cross {
+  color: red;
+  position: absolute;
+  left: 23%;
+  top: 30%;
+  font-size: 20px;
+  font-weight: bold;
+}
+section#section_story .col-sm-7 hr {
+  border: 2px solid #222;
+}
+section#section_story .col-sm-7 i {
+  font-size: 48px;
+}
+section#section_story .col-sm-12.d-flex.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section#section_future img {
+  width: 100%;
+}
+section#section_future i {
+  font-size: 30px;
+}
+section#section_future .feature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  margin-bottom: 0px;
+  background-image: url("https://i.imgur.com/a5ymRW3.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #333;
+}
+footer.jumbotron .container {
+  color: #eee;
+  padding: 60px 0px;
+  text-align: center;
+}
+footer.jumbotron .container input {
+  text-align: center;
+  background-color: transparent;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: 2px solid #ff6e3a;
+}

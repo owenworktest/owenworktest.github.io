@@ -1,0 +1,118 @@
+$color_orange: #ff6e3a
+$img_url: "https://i.imgur.com/a5ymRW3.jpeg"
+* 
+  font-family: 微軟正黑體
+  // border: 1px solid  
+  // // debug  
+  // header, section
+  //   display: none
+  // .section_future
+  //   display: block
+  
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold  
+body 
+  height: 1000px
+.navbar
+  transition-duration: 0.5s
+nav.navbar.navbar-light.navbar-expand-md.fixed-top.navbar-top
+  // background-color: transparent
+  a
+    transition-duration: 0.5s
+    color: #eee
+    &:hover
+      color: $color_orange
+header.jumbotron
+  // height: 500px
+  margin-bottom: 0px
+  background-image: url($img_url)
+  background-size: cover
+  background-position: center center 
+  background-attachment: fixed//固定背景位置，不會隨滾輪移動
+  color: #333
+  .container
+    //由內往外撐開空間
+    padding: 200px 0px
+  hr
+    max-width: 50px
+    border: 2px solid $color_orange
+  h4
+    color: rgba(white, 0.5)
+  h1
+    color: #eee
+section
+  padding: 50px 0px
+section#section_ask
+  background-color: $color_orange
+  .col-sm-5.img
+    height: 350px
+    background-image: url("https://pic4.zhimg.com/v2-29bf561a85934638b0c716dc4ecc0aa1_b.jpg")
+    background-size: cover
+    mix-blend-mode: multiply
+  h2
+    margin-top: 130px
+    padding: 0px 20px
+section#section_about
+  img
+    width: 150%
+  .img_wrap
+    height: 200px
+    overflow: hidden
+section#section_story
+  padding: 0px
+  background-color: #222
+  color: #eee
+  .col-sm-5
+    background-image: url("https://stutzfamily.com/mrstutz/Maps/USHistory/europe1938.gif")
+    height: 400px
+    background-size: 100% 100%  
+    .cross
+      color: red
+      position: absolute
+      left: 23%
+      top: 30%
+      font-size: 20px
+      font-weight: bold
+  .col-sm-7    
+    hr
+      border: 2px solid #222
+    i
+      font-size: 48px
+  .col-sm-12.d-flex.features
+    margin-top: 40px
+    margin-bottom: 40px
+    
+section#section_future
+  img
+    width: 100%
+  // background-image: url("http://www.falkenporzellan.com/fileadmin/_migrated/pics/Druckerei_2_02.jpg")
+  
+  i
+    font-size: 30px
+  .feature
+    padding-top: 10px
+    padding-bottom: 10px
+footer.jumbotron
+  // height: 500px
+  margin-bottom: 0px
+  background-image: url($img_url)
+  background-size: cover
+  background-position: center center 
+  background-attachment: fixed
+  color: #333
+  .container
+    //由內往外撐開空間
+    color: #eee
+    padding: 60px 0px
+    text-align: center
+    input
+      text-align: center
+      background-color: transparent
+      // max-width: 25%
+      max-width: 350px
+      margin-left: auto
+      margin-right: auto          
+  hr
+    max-width: 50px
+    border: 2px solid $color_orange    
+      
