@@ -1,0 +1,74 @@
+*
+  // border: 1px solid
+  font-family: 微軟正黑體
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+header.jumbotron
+  background-image: url("https://wallpaperaccess.com/full/1125362.jpg")
+  background-size: cover
+  background-position: center center 
+  // padding: 100px  
+  .container
+    padding: 80px
+    color: white
+section
+  padding: 80px 0px
+  .section-heading
+    margin-top: 0px
+    font-size: 32px
+  .section-subheading
+    font-size: 16px
+.col-sea
+  padding: 70px
+  img
+    width: 100%
+    border-radius: 50%
+
+section.story
+  background-color: #eee
+  .col-md-6
+    padding: 20px
+  .icon-sea
+    width: 80px    
+    margin-bottom: 20px
+section.pictures
+  padding: 0px
+  color: #eee
+  p 
+    opacity: 0.4
+  .col-md-6
+    padding: 150px
+    background-size: 120%
+    cursor: pointer
+    &:hover      
+      &:before
+        filter: brightness(0.5)
+        background-size: 140% auto
+        p 
+          opacity: 0.7    
+    &:before
+      content: ""
+      display: block
+      width: 100%
+      height: 100%        
+      position: absolute
+      left: 0
+      top: 0
+      z-index: -1
+      transition-duration: 0.5s
+      background-position: center     
+  .pic1:before    
+    background-image: url("https://i.imgur.com/eh03rAr.jpg")
+    background-size: 130% auto
+  .pic2:before
+    background-image: url("https://img.technews.tw/wp-content/uploads/2018/06/25125610/19989703934_4c0109114e_k-e1529902589739.jpg")
+    background-size: 130% auto
+
+section.ask
+  background-color: #01233c
+  color: #eee
+//debug用    
+// section,header
+//   display: none
+// section.pictures,section.ask
+//   display: block
